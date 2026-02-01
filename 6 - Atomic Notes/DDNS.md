@@ -1,3 +1,11 @@
+
+2026-02-01 19:47
+
+Status:
+
+Tags: #Networking #Proxmox
+
+# References
 dynamic data network system
 
 En DNS mappar domän namn till ip addresser och vanligtvis så har man en dynamisk IP address hemma. 
