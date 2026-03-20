@@ -45,5 +45,8 @@ It is crucial that the reset is not included in the always_ff block since the BR
 
 However using the BRAM adds a 1 CC delay (latency to the pipeline)
 
+## Final solution
+I struggled with implementing the BRAM through just writing RTL because it is a discrete component on the FPGA I had to make sure that I wrote the code perfectly which was not possible. I ended up using the IP catalog to configure the BRAM how I wanted.
+
 
 # References
