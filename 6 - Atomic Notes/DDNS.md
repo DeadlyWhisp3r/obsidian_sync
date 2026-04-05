@@ -14,7 +14,14 @@ Ifall man är utanför hemmet och vill ta sig in ens nätverk måste man memorer
 
 T.ex myhomepc.ddns.org så finns det en databas som kopplar om till DDNS.
 
+### Setup
+To setup a DDNS I used dynu ddns. Create an account and register a free domain then link that in the router settings found under WAN>DDNS.
+
 ### Ad-Blockers
 Using for example Adguard your can filter out DNS requests to your server and using these different filters you can drop any requests asscoiated with ads or spyware that has been setup in the rules (the filters).
 
+A helper script to create a Proxmox LXC with adguard running on it. Lightweight and quick.
+````
+bash -c "$(wget -qLO - https://github.com/community-scripts/ProxmoxVE/raw/main/ct/adguard.sh)"
+````
 now neovim is working yayyy.
