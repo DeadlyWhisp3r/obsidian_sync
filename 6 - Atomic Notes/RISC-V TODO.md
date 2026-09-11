@@ -12,4 +12,7 @@ Implement the branch predictioni state machine using two bits.
 #### Load a proper program
 Load a proper program and see in simulation and then proceed to try the same program on the actual fpga. Maybe connect the 7 segment display and wire them to some registers.
 
+
+
+There is a latency on the subtraction of the looping condition register. 3 times it gets called before actually starting to decrement.
 # References
