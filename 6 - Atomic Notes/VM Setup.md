@@ -22,5 +22,9 @@ sudo systemctl start xrdp
 	* git is a requirement for installing homebrew
 * /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-
+### Vivado hardware manager
+```
+sudo ip route add 100.64.0.0/10 via 192.168.50.156
+```
+in the debian VM to route the data from it to my desktop
 # References
